@@ -6,7 +6,7 @@
  *
  * @i: input number as an integer.
  *
- * Return: absolute value
+ * Return: Always 0 (Success)
  */
 int _abs(int i)
 {
