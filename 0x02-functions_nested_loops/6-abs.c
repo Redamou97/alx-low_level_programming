@@ -1,16 +1,18 @@
 #include "main.h"
 
 /**
- * _abs - Computes the absolute value
- * of an integer.
- *
- * @n: input number as an integer.
- *
- * Return: Always 0 (Success)
+ * _abs - comouts the absolute value of an integer.
+ * @c: the number to be continue
+ * Return: 0
  */
-int _abs(int i)
+int _abs(int c)
 {
-	if (n < 0)
-		n = (-1) * n;
-	return (n);
+	if (c < 0)
+	{
+		int abs_val;
+
+		abs_val = c * -1;
+		return (abs_val);
+	}
+	return (c);
 }
