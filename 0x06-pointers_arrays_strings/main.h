@@ -27,4 +27,6 @@ void print_buffer(char *b, int size);
 
 char *leet(char *);
 
+void rev_string(char *s);
+
 #endif /* MAIN_H */
