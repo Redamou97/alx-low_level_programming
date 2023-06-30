@@ -29,4 +29,12 @@ char *leet(char *);
 
 void rev_string(char *s);
 
+void printHexes(char *b, int start, int end);
+
+int isPrintableASCII(int n);
+
+void print_buffer(char *b, int size);
+
+void printASCII(char *b, int start, int end);
+
 #endif /* MAIN_H */
