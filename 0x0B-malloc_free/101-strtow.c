@@ -7,17 +7,19 @@ char **strtow(char *str);
 
 /**
  * word_len - locates the index
- * @str:  the string to be searched
+ * @str:  the string to be se<arched
  * Return: the index marking the end of the intial word pointed to by str
  */
 int word_len(char *str)
 {
 	int index = 0, len = 0;
+
 	while (*(str + index) && *(str + index) != ' ')
 	{
 		len++;
 		index++;
 	}
+
 	return (len);
 }
 
